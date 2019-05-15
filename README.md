@@ -1,9 +1,11 @@
 Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers, The Forknote developers  
 Copyright (c) 2017-2018, The BitcoiNote developers
 
-# BitcoiNote Core
+Copyright (c) 2018-2019, The Xcoin developers
 
-BitcoiNote (BTCN) is a cryptocurrency based on CryptoNote.
+# Xcoin Core
+
+Xcoin (XCOIN) is a cryptocurrency based on CryptoNote.
 
 **P2P Port:** 28388  
 **RPC Port:** 28389
