@@ -25,7 +25,7 @@ namespace CryptoNote {
 namespace parameters {
 
 const uint32_t HF_APR18_HEIGHT                               = 1; // offset by one! actually 70913
-const uint32_t HF_SEP18_HEIGHT                               = 98640; 
+const uint32_t HF_SEP18_HEIGHT                               = 119000; 
 
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
@@ -117,8 +117,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  20000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  2000;
 
-const int      P2P_DEFAULT_PORT                              =  38688;
-const int      RPC_DEFAULT_PORT                              =  38689;
+const int      P2P_DEFAULT_PORT                              =  28688;
+const int      RPC_DEFAULT_PORT                              =  28689;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -135,7 +135,7 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; //
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
-const char* const SEED_NODES[] = { "communitypool.org:38688", "xvv.communitypool.org:38688", "192.95.20.54:38688", "144.217.29.36:38688" };
+const char* const SEED_NODES[] = { "communitypool.org:28688", "xvv.communitypool.org:28688", "192.95.20.54:28688", "144.217.29.36:28688", "explorer.xcoin.ninja:28688", "144.217.29.34:28688", "144.217.30.38:28688" };
 
 
 struct CheckpointData {
