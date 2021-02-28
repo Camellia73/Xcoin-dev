@@ -1,6 +1,9 @@
-CI=true
-TRAVIS=true
-USER=travis
-HOME=/Users/travis
-os: osx
-osx_image: xcode9.4
+language: c++
+matrix:
+  exclude:
+    - env: TRAVIS_EMPTY_JOB_WORKAROUND=true
+
+include:
+    - os: osx
+      env: CHECK_FORMATTING=true
+      osx_image: xcode9.4
