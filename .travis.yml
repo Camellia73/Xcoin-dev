@@ -1,3 +1,9 @@
-      os: osx
-      env: CHECK_FORMATTING=true
-      osx_image: xcode9.4
+os: osx
+env: CHECK_FORMATTING=true
+osx_image: xcode9.4
+addons:
+  homebrew:
+    packages:
+    - cmake
+    - boost
+    - clang
