@@ -1,7 +1,7 @@
 Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers, The Forknote developers  
 Copyright (c) 2017-2018, The BitcoiNote developers
 
-Copyright (c) 2018-2019, The Xcoin developers
+Copyright (c) 2018-2022, The Xcoin developers
 
 # Xcoin Core
 

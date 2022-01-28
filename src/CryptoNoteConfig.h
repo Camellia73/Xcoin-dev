@@ -135,7 +135,7 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; //
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
-const char* const SEED_NODES[] = { "communitypool.org:28688", "explorer.xcoin.ninja:28688", "54.39.195.212:28688" };
+const char* const SEED_NODES[] = { "communitypool.org:28688", "explorer.xcoincrypto.org:28688", "54.39.195.212:28688", "173.208.176.252:28688" };
 
 
 struct CheckpointData {
@@ -162,7 +162,16 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
   {200071, "c77fc6a66f1cfcccccba9d8bcc07889fa14590794e1719639f31b0d92aff67d0"},
   {200072, "6010623af89385f80d7a93e855af2deee234b6a4e6100165f21dfc91c30783d5"},
   {205000, "208f2bd3d639410d235a9a71653309d1bc6b08050569ebcd3c9ab6338609394b"},
-  {210238, "39ec1618b90def4d343121f273e081fc506cb21d15681f8e9fb51718683c6865"}
+  {210238, "39ec1618b90def4d343121f273e081fc506cb21d15681f8e9fb51718683c6865"},
+  {300000, "45ca93248b0d00b070c57d8d3d59597a0d1f5ff3125ad7a59d814a4e9d147c6e"},
+  {350000, "d7834869655dfeab311f832f7e41dfd7fc223f0f71f7bcf7aaf6f4785c9ff58f"},
+  {400000, "0c4cbbd92ffd38d5a396a8621be8b8ea8fdc01818b1dd1fc3b6314fb11c6b26c"},
+  {450000, "c586b92446b8a8d481a92cb2ac07d7747df40f991b2e2996ce0952ca8bd785f2"},
+  {500000, "4853b04a66623b03e4a2b86f63ed8e8aa236007a4c8c72dfd10376fcb18c405a"},
+  {550000, "315f92c57b515d55b071693e2f841aab26c0f02e32660caa4b5b03b67453984c"},
+  {600000, "9c825b8cc32062e4962aca0161f709162dee5bd20aea7a60993fcc463e09b411"},
+  {650000, "4a7730c04b8edd662218c85a9f7bb9667ad78c601a660cf1b2c420d22d3899d8"},
+  {684863, "b951866bdcc9363ac15d6f560b36e38cc637371a9982245ec53993705c530d4a"}
 };
 
 } // CryptoNote
